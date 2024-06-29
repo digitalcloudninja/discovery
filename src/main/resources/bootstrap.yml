@@ -1,0 +1,7 @@
+spring:
+    cloud:
+        config:
+            enabled: true
+            name: discovery-service
+        loadbalancer:
+            enabled: false

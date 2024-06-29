@@ -1,8 +1,10 @@
-package ninja.digitalcloud.cloud.starter;
+package ninja.digitalcloud.cloud.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
+@EnableEurekaServer
 @SpringBootApplication
 public class Main {
 
