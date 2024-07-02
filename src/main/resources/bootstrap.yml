@@ -2,6 +2,6 @@ spring:
     cloud:
         config:
             enabled: true
-            name: discovery-service
+            name: discovery
         loadbalancer:
             enabled: false

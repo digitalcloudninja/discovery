@@ -1,3 +1,3 @@
 FROM eclipse-temurin:22-jdk-alpine
-COPY "build/libs/*-1.0.0-SNAPSHOT.jar" "/libs/discovery-service-v1.0.jar"
-ENTRYPOINT ["java", "-jar", "/libs/discovery-service-v1.0.jar"]
+COPY "build/libs/*-1.0.0-SNAPSHOT.jar" "/libs/discovery-v1.0.jar"
+ENTRYPOINT ["java", "-jar", "/libs/discovery-v1.0.jar"]

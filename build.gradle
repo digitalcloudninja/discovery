@@ -24,7 +24,7 @@ repositories {
     mavenCentral()
     maven {
         name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com/digitalcloudninja/discovery-service")
+        url = uri("https://maven.pkg.github.com/digitalcloudninja/discovery")
         credentials {
             username = project.findProperty("USERNAME") ?: System.getenv("USERNAME")
             password = project.findProperty("PKG_TOKEN") ?: System.getenv("PKG_TOKEN")
@@ -63,7 +63,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/digitalcloudninja/discovery-service")
+            url = uri("https://maven.pkg.github.com/digitalcloudninja/discovery")
             credentials {
                 username = project.findProperty("USERNAME") ?: System.getenv("USERNAME")
                 password = project.findProperty("PKG_TOKEN") ?: System.getenv("PKG_TOKEN")
